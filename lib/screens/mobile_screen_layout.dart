@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whats_app_clone/colors.dart';
+import 'package:whats_app_clone/widgets/contacts_list.dart';
 
 class MobileScreenLayout extends StatelessWidget{
   const MobileScreenLayout({super.key});
@@ -61,9 +62,7 @@ class MobileScreenLayout extends StatelessWidget{
           ),
         ),
 
-        body: Center(
-            child: Text('This is mobile')
-        ),
+        body: ContactsList(),
       ),
     );
   }
